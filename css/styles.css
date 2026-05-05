@@ -627,7 +627,7 @@ footer .water-shimmer { display: none; }
 .hero-sub {
   font-size: clamp(0.88rem, 1.1vw, 1.1rem);
   color: rgba(212,236,240,0.78);
-  max-width: 800px;
+  max-width: 700px;
   line-height: 1.82;
   margin-bottom: 1.5rem;
   opacity: 0;
