@@ -1444,6 +1444,8 @@ footer .water-shimmer { display: none; }
   animation: fadeIn 0.8s 0.9s forwards;
 }
 
+
+
 /* ── CHALLENGES
    Manifesto style — full width, no columns, no boxes.
    Each challenge is a single statement on its own line.
@@ -2281,4 +2283,11 @@ footer .water-shimmer { display: none; }
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
+}
+/* Keep credential artwork aligned without distorting different image sizes. */
+.cred-badge img { height: clamp(120px, 16vw, 180px); object-fit: contain; }
+.cred-badge:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 8px; border-radius: 4px; }
+@media (max-width: 600px) {
+  .nav-logo { white-space: normal; max-width: 13rem; line-height: 1.2; }
+  .footer-title { text-align: center; line-height: 1.6; }
 }
