@@ -2312,3 +2312,10 @@ footer .water-shimmer { display: none; }
   .nav-logo { white-space: normal; max-width: 13rem; line-height: 1.2; }
   .footer-title { text-align: center; line-height: 1.6; }
 }
+
+/* Approved simplified footer */
+.footer-title { font-size: .74rem; letter-spacing: .025em; line-height: 1.6; text-align: center; max-width: 100%; }
+.footer-title strong { font-weight: 500; color: var(--warm-white); }
+.footer-credit { color: rgba(247,244,240,.65); font-size: .7rem; }
+.footer-links-wrap { flex-wrap: wrap; justify-content: center; column-gap: 2rem; row-gap: 1rem; }
+@media (min-width: 760px) { .footer-title { white-space: nowrap; } }
