@@ -6,8 +6,11 @@
   <title>Coaching | Carrie Shapiro-Mendoza, PhD, MPH, ACC</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/coaching-revision.css">
+  <link rel="stylesheet" href="css/closing-cards.css">
+  <link rel="stylesheet" href="css/live-footer.css">
 </head>
-<body>
+<body class="coaching-page">
 
 <div class="page-bg" aria-hidden="true"></div>
 
@@ -17,7 +20,8 @@
   <div class="nav-right">
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>           <!-- Navbar link 1 -->
-      <li><a href="coaching.html">Coaching</a></li>    <!-- Navbar link 2 -->
+      <li><a href="coaching.html">Coaching</a></li>
+      <li><a href="organizations.html">Organizations</a></li>    <!-- Navbar link 2 -->
       <li><a href="about.html">About</a></li>          <!-- Navbar link 3 -->
       <li><a href="contact.html">Contact</a></li>      <!-- Navbar link 4 -->
     </ul>
@@ -33,6 +37,7 @@
 <div class="nav-drawer" role="dialog" aria-label="Navigation menu">
   <a href="index.html">Home</a>
   <a href="coaching.html">Coaching</a>
+  <a href="organizations.html">Organizations</a>
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
   <a href="https://www.linkedin.com/in/carrie-shapiro-mendoza-phd-mph-acc-13574b23/" target="_blank" rel="noopener" aria-label="LinkedIn">
@@ -43,271 +48,41 @@
 
 <!-- HERO — architectural, grid pattern, precise -->
 
-<!-- ============================================================
-     COACHING HERO SECTION
-     ============================================================ -->
-<section class="coaching-hero" aria-label="Coaching header">
-  <div class="coaching-hero-inner">
-    <span class="coaching-hero-eyebrow">Executive Coaching</span>  <!-- Coaching hero eyebrow -->
-    <h1 class="coaching-hero-headline">Strengthening <em>how you make decisions.</em></h1>  <!-- Coaching hero headline -->
-    <p class="coaching-hero-sub">This is not about learning to lead. It is about how you think through and act on the decisions that matter most.</p>
-    <div class="coaching-hero-rule" aria-hidden="true"></div>
-  </div>
-</section>
-
-
-<!-- HOW THIS WORK IS DONE -->
-
-<!-- ============================================================
-     HOW THIS WORK IS DONE
-     ============================================================ -->
-<section class="coaching-how" aria-label="How this work is done">
-  <div class="coaching-how-inner">
-    <div class="reveal">
-      <h2>How this work is done</h2>
-      <p>I ask direct questions, challenge your assumptions, and stay with the decision until you are clear on how to move forward.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ENGAGEMENTS — three cards -->
-
-<!-- ============================================================
-     ENGAGEMENT CARDS — three coaching options
-     ============================================================ -->
-<section class="coaching-engagements" aria-label="Coaching engagements">
-  <div class="coaching-engagements-inner">
-
-    <div class="engagements-heading reveal">
-      <span class="label">Coaching Engagements</span>
-      <h2>Structured space for consequential decisions</h2>
-      <p>I work with a small number of senior leaders each year in structured engagements designed to create space for thoughtful reflection and careful examination of consequential leadership decisions.</p>
-    </div>
-
-    <div class="eng-cards">
-
-      <div class="eng-card reveal">
-        <div class="eng-card-head">
-          <span class="eng-card-tag">Strategic Clarity</span>
-          <h3>Six-Month Executive Partnership</h3>
-          <span class="eng-card-duration">6 months · 12 sessions</span>
-        </div>
-        <div class="eng-card-body">
-          <p class="eng-card-desc">Designed for sustained leadership refinement. This format allows for depth, continuity, and thoughtful exploration of challenges as they unfold.</p>
-          <ul class="eng-card-includes">
-            <li><span class="eng-check">✓</span> Twelve private coaching conversations</li>
-            <li><span class="eng-check">✓</span> Exploration of leadership trajectory and next direction</li>
-            <li><span class="eng-check">✓</span> Structured reflection between sessions</li>
-            <li><span class="eng-check">✓</span> Examination of complex leadership challenges</li>
-            <li><span class="eng-check">✓</span> Support and accountability for chosen actions</li>
-            <li><span class="eng-check">✓</span> Email access between sessions</li>
-          </ul>
-        </div>
-        <div class="eng-card-foot"><a href="contact.html" class="btn-outline">Schedule an Initial Conversation</a></div>
-      </div>
-
-      <div class="eng-card featured reveal reveal-d1">
-        <div class="eng-card-head">
-          <span class="eng-card-tag">Most Common Starting Point</span>
-          <h3>Focused Leadership Engagement</h3>
-          <span class="eng-card-duration">3 months · 6 sessions</span>
-        </div>
-        <div class="eng-card-body">
-          <p class="eng-card-desc">Designed for leaders navigating a specific challenge or period of transition. A focused period for examining key decisions and clarifying next steps.</p>
-          <ul class="eng-card-includes">
-            <li><span class="eng-check">✓</span> Six confidential coaching conversations</li>
-            <li><span class="eng-check">✓</span> Structured reflection between sessions</li>
-            <li><span class="eng-check">✓</span> Support and accountability for commitments chosen</li>
-            <li><span class="eng-check">✓</span> Email access between sessions</li>
-          </ul>
-        </div>
-        <div class="eng-card-foot"><a href="contact.html" class="btn-primary">Schedule an Initial Conversation</a></div>
-      </div>
-
-      <div class="eng-card reveal reveal-d2">
-        <div class="eng-card-head">
-          <span class="eng-card-tag">Immediate Need</span>
-          <h3>Strategic Decision Intensive</h3>
-          <span class="eng-card-duration">3 sessions over several weeks</span>
-        </div>
-        <div class="eng-card-body">
-          <p class="eng-card-desc">Designed for leaders facing a consequential decision who would benefit from a structured space to examine the issue from multiple perspectives.</p>
-          <ul class="eng-card-includes">
-            <li><span class="eng-check">✓</span> Three focused coaching conversations</li>
-            <li><span class="eng-check">✓</span> Multi-perspective examination of the decision</li>
-            <li><span class="eng-check">✓</span> Clarification of priorities and next steps</li>
-            <li><span class="eng-check">✓</span> Greater confidence in moving forward</li>
-          </ul>
-        </div>
-        <div class="eng-card-foot"><a href="contact.html" class="btn-outline">Schedule an Initial Conversation</a></div>
-      </div>
-
-    </div>
-
-    <p class="eng-fee-note reveal">Fees are discussed during the initial consultation. Coaching may be supported by the leader directly or by their organization.</p>
-
-  </div>
-</section>
-
-
-<!-- CHALLENGES — manifesto style, full width -->
-
-<!-- ============================================================
-     CHALLENGES — manifesto lines
-     ============================================================ -->
-<section class="coaching-challenges" aria-label="Leadership challenges">
-  <div class="coaching-challenges-inner">
-
-    <div class="challenges-header">
-      <div class="outcomes-header reveal">
-        <span class="label">The challenges I address</span>
-        <h2>What brings leaders to this work</h2>
-        <p class="reveal-right">At the senior level, challenges are rarely about competence. They are about making decisions when the path forward is not fully clear.</p>
-      </div>
-    </div>
-
-    <div class="challenges-manifesto">
-      <div class="challenge-line reveal">
-        <span class="challenge-index">i</span>
-        <span class="challenge-text">Making high-stakes decisions without full certainty</span>
-      </div>
-      <div class="challenge-line reveal reveal-d1">
-        <span class="challenge-index">ii</span>
-        <span class="challenge-text">Navigating disagreement among highly accomplished peers and collaborators</span>
-      </div>
-      <div class="challenge-line reveal reveal-d2">
-        <span class="challenge-index">iii</span>
-        <span class="challenge-text">Balancing mission priorities with operational and institutional realities</span>
-      </div>
-      <div class="challenge-line reveal reveal-d3">
-        <span class="challenge-index">iv</span>
-        <span class="challenge-text">Communicating expectations and decisions clearly across diverse audiences</span>
-      </div>
-      <div class="challenge-line reveal reveal-d4">
-        <span class="challenge-index">v</span>
-        <span class="challenge-text">Leading teams and peers through periods of change or uncertainty</span>
-      </div>
-      <div class="challenge-line reveal">
-        <span class="challenge-index">vi</span>
-        <span class="challenge-text">Maintaining clarity of purpose amid competing institutional pressures</span>
-      </div>
-      <div class="challenge-line reveal reveal-d1">
-        <span class="challenge-index">vii</span>
-        <span class="challenge-text">Remaining open to new information when leading from a position of authority</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-
-<!-- OUTCOMES + TESTIMONIALS CAROUSEL -->
-
-<!-- ============================================================
-     OUTCOMES + TESTIMONIALS
-     ============================================================ -->
-<section class="coaching-outcomes" aria-label="What leaders experience">
-  <div class="coaching-outcomes-inner">
-
-    <!-- Header — single column -->
-    <div class="outcomes-header reveal">
-      <span class="label">What leaders experience</span>
-      <h2>What changes through this work</h2>
-      <p>Leaders who engage in this work often report meaningful shifts — not in their expertise, but in how they bring that expertise to bear under pressure and in complexity.</p>
-    </div>
-
-    <!-- Outcome statements -->
-    <div class="outcomes-statements reveal">
-      <div class="outcome-statement">
-        <span class="outcome-tick">—</span>
-        <p>Clearer thinking in complex decision-making</p>
-      </div>
-      <div class="outcome-statement">
-        <span class="outcome-tick">—</span>
-        <p>Increased confidence navigating uncertainty</p>
-      </div>
-      <div class="outcome-statement">
-        <span class="outcome-tick">—</span>
-        <p>Stronger alignment between values and leadership actions</p>
-      </div>
-      <div class="outcome-statement">
-        <span class="outcome-tick">—</span>
-        <p>Greater ability to engage in disagreement constructively</p>
-      </div>
-      <div class="outcome-statement">
-        <span class="outcome-tick">—</span>
-        <p>Communicating more clearly with teams and collaborators</p>
-      </div>
-      <div class="outcome-statement">
-        <span class="outcome-tick">—</span>
-        <p>More effectively mentoring and developing emerging leaders</p>
-      </div>
-      <div class="outcome-statement">
-        <span class="outcome-tick">—</span>
-        <p>Expanded leadership opportunities and professional direction</p>
-      </div>
-    </div>
-
-    <!-- CTA — after the statements -->
-    <div class="outcomes-cta reveal">
-      <a href="contact.html" class="btn-primary">Schedule an Initial Conversation</a>
-      <span class="outcomes-note">30 minutes · Confidential · No obligation</span>
-    </div>
-
-    <!-- Testimonials carousel -->
-    <div class="testimonials-carousel-wrap reveal" aria-label="Client testimonials">
-      <div class="carousel-track" id="carouselTrack" aria-live="polite">
-
-        <div class="carousel-slide active" role="group" aria-label="Testimonial 1 of 3">
-          <p class="carousel-quote">After leaving my previous government leadership position under extremely challenging circumstances, Carrie helped me regain confidence in my leadership and professional skills. She listened with empathy when I shared my fears and doubts and asked direct, insightful questions that helped me get unstuck.</p>
-          <span class="carousel-author-name">Amanda B</span>
-          <span class="carousel-author-title">Former Federal Public Health Leader, Currently in Academia</span>
-        </div>
-
-        <div class="carousel-slide" role="group" aria-label="Testimonial 2 of 3">
-          <p class="carousel-quote">Carrie builds trust quickly. She creates a safe, thoughtful space for reflection while also challenging clients to grow. The result is measurable progress in leadership effectiveness, workplace relationships, and career direction.</p>
-          <span class="carousel-author-name">Jeff R</span>
-          <span class="carousel-author-title">Former Federal Public Health Leader, Currently in Private Sector</span>
-        </div>
-
-        <div class="carousel-slide" role="group" aria-label="Testimonial 3 of 3">
-          <p class="carousel-quote">Her ability to listen deeply, challenge assumptions, and guide thoughtful reflection helped me approach decisions with clarity and confidence.</p>
-          <span class="carousel-author-name">Catherine V</span>
-          <span class="carousel-author-title">Former Federal Public Health Leader, Currently in Academia</span>
-        </div>
-
-      </div>
-
-      <!-- Progress dots -->
-      <div class="carousel-dots" role="tablist" aria-label="Testimonial navigation">
-        <button class="carousel-dot active" role="tab" aria-selected="true"  aria-label="Testimonial 1" data-index="0"></button>
-        <button class="carousel-dot"        role="tab" aria-selected="false" aria-label="Testimonial 2" data-index="1"></button>
-        <button class="carousel-dot"        role="tab" aria-selected="false" aria-label="Testimonial 3" data-index="2"></button>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
+<main id="coaching-content">
+<section class="coaching-opening" aria-labelledby="coaching-heading"><div class="coaching-revision-inner"><h1 id="coaching-heading">Leadership gets harder as responsibility grows.</h1><p class="coaching-header-support">Coaching gives you a confidential place to work through difficult decisions, relationships, and priorities with someone outside the situation.</p></div></section>
+<section class="coaching-introduction coaching-section" aria-label="About coaching"><div class="coaching-revision-inner"><div class="coaching-opening-copy">
+<p>Whether you are stepping into broader responsibility or already leading at a senior level, you may be surrounded by people and still have no one you can speak with candidly about a difficult issue.</p>
+<p>If the issue involves your boss, your peers, your team, or an important decision, the people closest to you may also be part of the situation.</p>
+<p>Stepping into a new or expanded role can also make you wonder whether you are really ready for it, even when you have the experience and expertise that got you there. You may feel pressure to prove yourself quickly to the people who selected you, the people you now lead, and your peers. Some clients describe this as imposter syndrome.</p></div></div></section>
+<section class="coaching-package-section coaching-section" aria-labelledby="package-heading"><div class="coaching-revision-inner"><article class="coaching-package-card"><h2 id="package-heading">One-to-One Coaching</h2><p class="coaching-package-summary">6 sessions over approximately 3–4 months</p><p class="coaching-package-frequency">We typically meet about every other week.</p><p>The engagement includes:</p><ul><li>Six confidential 50–60 minute virtual coaching sessions</li>
+  
+<li>Structured reflection between sessions</li>
+<li>Support and accountability for commitments you choose</li>
+<li>Brief email support between sessions</li></ul><p>Time between sessions gives you an opportunity to try new approaches in your work, see what happens, and bring the experience back into coaching.</p>
+<p>Organization-sponsored engagements that require additional sponsor meetings, assessments, reporting, or other services are scoped separately.</p><a href="https://calendly.com/carrieksm/schedule_an_initial_conversation" class="btn-primary" target="_blank" rel="noopener">Schedule an Initial Conversation</a></article><p class="coaching-reduced-fee">A limited number of reduced-fee spaces may be available for clients who are paying personally. Ask about availability during the initial conversation.</p></div></section>
+<section class="coaching-section coaching-approach" aria-labelledby="approach-heading"><div class="coaching-revision-inner"><h2 id="approach-heading">What working with me is like</h2><div class="coaching-approach-grid"><div class="coaching-approach-statement"><p>You bring the issues that matter most to you.</p></div><div class="coaching-approach-detail"><p>I listen carefully, ask direct questions, and challenge your thinking when it is useful.</p>
+<p>I bring experience and perspective, but the decisions remain yours. The work is focused on helping you see the situation more clearly, consider options you may not have seen, and determine how you want to move forward.</p></div></div></div></section>
+<section class="coaching-section coaching-experience" aria-labelledby="experience-heading"><div class="coaching-revision-inner"><div class="coaching-experience-card"><h2 id="experience-heading">Experience I bring to the coaching relationship</h2><p>I have been in leadership roles where there was no easy person to talk to.</p>
+<p>My background in nursing, public health, science, and senior leadership helps me understand many of the pressures leaders bring to coaching. I do not assume my experience is the same as yours.</p><a class="link-arrow" href="about.html">Learn more about Carrie</a></div></div></section>
+<section class="coaching-section coaching-testimonial" aria-label="Client perspective"><div class="coaching-revision-inner"><figure class="coaching-quote-card"><span class="coaching-quote-mark" aria-hidden="true">“</span><blockquote><p>“Carrie builds trust quickly. She creates a safe, thoughtful space for reflection while also challenging clients to grow.”</p></blockquote><figcaption>— Jeff — Health scientist and researcher</figcaption></figure></div></section>
+<section class="coaching-section coaching-professional-note" aria-label="Professional standards"><div class="coaching-revision-inner"><p>I am an Associate Certified Coach (ACC) with the International Coaching Federation and follow its professional standards, including confidentiality and ethical practice.</p></div></section>
+<section class="coaching-section coaching-closing" aria-label="Arrange an initial conversation"><div class="coaching-revision-inner"><div class="coaching-closing-island closing-card"><p>An initial conversation is a chance to discuss what you are facing and whether working together makes sense.</p><a href="https://calendly.com/carrieksm/schedule_an_initial_conversation" class="btn-primary" target="_blank" rel="noopener">Schedule an Initial Conversation</a><p class="coaching-microcopy">30 minutes · Confidential · No cost · No obligation</p></div></div></section>
+</main>
 <!-- ============================================================
      FOOTER
      ============================================================ -->
 <footer aria-label="Footer">
   <div class="water-shimmer" aria-hidden="true"></div>
   <div class="footer-inner">
-    <a href="index.html" class="footer-name">Shapiro-Mendoza Leadership</a>
-    <span class="footer-title"><strong>Carrie Shapiro-Mendoza, PhD, MPH, ACC</strong> · Executive Coach · Public Health Leader</span>  <!-- Footer tagline -->
+    <a href="index.html" class="footer-name">Shapiro-Mendoza Leadership LLC</a>
+    <span class="footer-title"><strong>Carrie Shapiro-Mendoza, PhD, MPH, ACC</strong> · Executive and Leadership Coach · Public Health Leader</span>  <!-- Footer tagline -->
     <div class="footer-divider" aria-hidden="true"></div>
     <div class="footer-links-wrap">
       <a href="https://www.linkedin.com/in/carrie-shapiro-mendoza-phd-mph-acc-13574b23/" target="_blank" rel="noopener" class="footer-linkedin" aria-label="LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
         LinkedIn
       </a>
-      <a href="https://calendly.com/carrieksm/schedule_an_initial_conversation?month=2026-10" target="_blank" rel="noopener">Schedule an Initial Conversation</a>  <!-- Footer Calendly link -->
+      <a href="https://calendly.com/carrieksm/schedule_an_initial_conversation" target="_blank" rel="noopener">Schedule an Initial Conversation</a>  <!-- Footer Calendly link -->
     </div>
     <div class="footer-divider" aria-hidden="true"></div>
     <span class="footer-credit">Developed by <a href="https://evermendoza.github.io/" target="_blank" rel="noopener">Ever Mendoza</a></span>
@@ -351,104 +126,8 @@
   }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
   document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => observer.observe(el));
 
-  // ── FAQ accordion
-  document.querySelectorAll('.faq-q').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const item = btn.closest('.faq-item');
-      const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item').forEach(i => {
-        i.classList.remove('open');
-        i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
-      });
-      if (!isOpen) {
-        item.classList.add('open');
-        btn.setAttribute('aria-expanded', 'true');
-      }
-    });
-  });
-
-  // ── Testimonials carousel
-  // Auto-rotates with generous pause. Draggable. Pauses on hover/drag.
-  const slides = document.querySelectorAll('.carousel-slide');
-  const dots   = document.querySelectorAll('.carousel-dot');
-  const track  = document.getElementById('carouselTrack');
-  let current  = 0;
-  let timer    = null;
-  let isPaused = false;
-
-  const PAUSE_DURATION = 6000; // 6 seconds per slide — generous for reading
-
-  function goTo(index) {
-    slides[current].classList.remove('active');
-    slides[current].classList.add('exit');
-    dots[current].classList.remove('active');
-    dots[current].setAttribute('aria-selected', 'false');
-
-    setTimeout(() => {
-      slides[current].classList.remove('exit');
-      current = index;
-      slides[current].classList.add('active');
-      dots[current].classList.add('active');
-      dots[current].setAttribute('aria-selected', 'true');
-    }, 100);
-  }
-
-  function next() {
-    goTo((current + 1) % slides.length);
-  }
-
-  function startTimer() {
-    clearInterval(timer);
-    timer = setInterval(() => {
-      if (!isPaused) next();
-    }, PAUSE_DURATION);
-  }
-
-  // Dot navigation
-  dots.forEach((dot, i) => {
-    dot.addEventListener('click', () => {
-      goTo(i);
-      startTimer();
-    });
-  });
-
-  // Pause on hover
-  track.addEventListener('mouseenter', () => { isPaused = true; });
-  track.addEventListener('mouseleave', () => { isPaused = false; });
-
-  // Drag support
-  let dragStartX = 0;
-  let isDragging = false;
-
-  track.addEventListener('pointerdown', (e) => {
-    dragStartX = e.clientX;
-    isDragging = true;
-    isPaused   = true;
-    track.setPointerCapture(e.pointerId);
-  });
-
-  track.addEventListener('pointerup', (e) => {
-    if (!isDragging) return;
-    const delta = e.clientX - dragStartX;
-    if (Math.abs(delta) > 50) {
-      if (delta < 0) {
-        goTo((current + 1) % slides.length);
-      } else {
-        goTo((current - 1 + slides.length) % slides.length);
-      }
-    }
-    isDragging = false;
-    isPaused   = false;
-    startTimer();
-  });
-
-  track.addEventListener('pointermove', (e) => {
-    if (!isDragging) return;
-    e.preventDefault();
-  });
-
-  startTimer();
 </script>
 
 </body>
 </html>
+
