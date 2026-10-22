@@ -45,7 +45,7 @@
 .home-map-cards h3 { font-size: clamp(1.7rem,2.5vw,2.3rem); font-weight: 500; color: #1A2428; margin-bottom: 1.25rem; }
 .home-map-cards p { margin-bottom: 2rem; }
 .home-map-cards .home-button { margin-top: auto; }
-.home-map-audience { border-bottom: 1px solid #DDD5C9; }
+.home-map-audience { background: #A8BDC3; border-bottom: 1px solid #DDD5C9; }
 .home-map-audience p + p, .home-map-experience p + p { margin-top: 1.25rem; }
 .home-map-experience-card { background: #FFFDFA; border-left: 4px solid #1E4D5C; padding: clamp(2rem,4vw,4rem); box-shadow: 0 0 0 1px #E8E0D4; }
 .home-approved .home-map-experience-card p { max-width: 850px; color: #1A2428; }
@@ -88,4 +88,4 @@
 
 /* Situation-based audience cards share the pathway-card design. */
 .home-approved .home-audience-cards p { margin-bottom: 0; }
-.home-approved .home-map-audience .home-audience-range { margin-top: 2rem; font-size: 1rem; line-height: 1.7; color: #4A5E64; }
+.home-approved .home-map-audience .home-audience-range { margin-top: 2rem; font-size: 1rem; line-height: 1.7; color: #1A2428; }
